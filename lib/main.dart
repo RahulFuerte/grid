@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: GridView.count(
-        crossAxisCount: 3,
+        crossAxisCount: 2,
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
